@@ -362,7 +362,7 @@ function Step2SailingProfile({ formData, updateFormData }: { formData: any; upda
             id="height"
             value={formData.height}
             onChange={(e) => updateFormData('height', e.target.value)}
-            placeholder="5'10\""
+            placeholder="5&apos;10&quot;"
           />
         </div>
       </div>
