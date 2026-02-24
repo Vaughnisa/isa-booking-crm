@@ -306,7 +306,7 @@ export function ClientsClient({ clients: initialClients }: ClientsClientProps) {
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
                       <span className="text-muted-foreground">Total Bookings: </span>
-                      <span className="font-medium">{selectedClient.bookings_count || 0}</span>
+                      <span className="font-medium">{(selectedClient as any).bookings_count || 0}</span>
                     </div>
                     <div>
                       <span className="text-muted-foreground">Member Since: </span>
